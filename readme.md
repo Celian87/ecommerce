@@ -27,7 +27,7 @@ After `git clone`, go to the terminal in the **repository directory** and run th
 - `composer install` to add missing files, except for configuration files
 - `cp .env.example .env` to generate new .env file. 
 - Open .env file and for `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`, enter your credentials to access your database.
-- `php artisan migrate` to update the database structure. [E-R Diagram](E-R_Diagram.png)
+- `php artisan migrate` to update the database structure.
 - `php artisan key:generate` to generate application key
 
 ## Running
